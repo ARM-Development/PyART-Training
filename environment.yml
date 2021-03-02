@@ -1,0 +1,21 @@
+name: pyart-training
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python=3.7
+  - boto
+  - boto3
+  - cython
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - xarray
+  - netcdf4
+  - trmm_rsl
+  - cartopy
+  - pip:
+     - git+https://github.com/ARM-DOE/pyart
+     - git+https://github.com/CSU-Radarmet/CSU_RadarTools.git
