@@ -16,6 +16,7 @@ dependencies:
   - netcdf4
   - trmm_rsl
   - cartopy
+  - act-atmos
   - pip:
      - git+https://github.com/ARM-DOE/pyart
      - git+https://github.com/CSU-Radarmet/CSU_RadarTools.git
