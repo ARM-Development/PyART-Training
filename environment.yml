@@ -16,8 +16,11 @@ dependencies:
   - xarray
   - netcdf4
   - trmm_rsl
+  - metpy
+  - siphon
   - cartopy
   - pip:
+     - nexradaws
      - git+https://github.com/ARM-DOE/pyart
      - git+https://github.com/CSU-Radarmet/CSU_RadarTools.git
      - git+https://github.com/ARM-DOE/ACT
