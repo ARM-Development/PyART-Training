@@ -5,6 +5,7 @@ channels:
 dependencies:
   - pip
   - python=3.7
+  - ipython=7.10
   - boto
   - boto3
   - cython
@@ -16,7 +17,7 @@ dependencies:
   - netcdf4
   - trmm_rsl
   - cartopy
-  - act-atmos
   - pip:
      - git+https://github.com/ARM-DOE/pyart
      - git+https://github.com/CSU-Radarmet/CSU_RadarTools.git
+     - git+https://github.com/ARM-DOE/ACT
