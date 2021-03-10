@@ -47,19 +47,12 @@ bash scripts/provision.sh
 
 Rock on!
 ```shell script
-
+jupyter notebook
 ```
 
 
 
 ## Courses
 
-[The 2021 AMS Python Virtual course](./courses/AMSPythonVirtual2021)
+[The 2021 AMS Python Virtual course](./Courses/AMSPythonVirtual2021.md)
 
-```json
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
