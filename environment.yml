@@ -15,7 +15,6 @@ dependencies:
   - jupyter
   - xarray
   - netcdf4
-  - trmm_rsl
   - metpy
   - siphon
   - cartopy
