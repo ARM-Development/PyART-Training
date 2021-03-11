@@ -15,6 +15,10 @@ Launch JupyterLab Pangeo (Not LTS but needed for gridding examples):
 Huge thanks to the Binder and Pangeo teams their institutions and sponsors. 
 
 ## Local Installation
+
+**Please note this requires compilers on your system. Google how to do this using things like xcode (macos) and
+build-essential (ubuntu)**
+
 Clone this repository to a local directory
 
 eg: 
@@ -43,6 +47,11 @@ conda install -c conda-forge wget
 Run the provision script (note, could be zsh et al instead of bash):
 ```shell script
 bash scripts/provision.sh 
+```
+Note, some users report SSL issues with the wget command.. if this hits you use:
+
+```shell script
+bash scripts/provision_curl.sh 
 ```
 
 Rock on!
