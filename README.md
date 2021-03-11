@@ -38,6 +38,13 @@ conda env create -f environment.yml
 conda activate pyart-training
 ```
 
+**If you are having issues with compilers (pip) use the simple env (not all examples will work):**
+```shell script
+cd pyart-training
+conda env create -f simple.yml
+conda activate pyart-training
+```
+
 Provisioning.
 If you have not got a system wide wget install it using conda:
 ```shell script
