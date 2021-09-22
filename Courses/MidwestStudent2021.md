@@ -1,10 +1,11 @@
 # The 2021 Midwest Student Conference on Atmospheric Research
-![alt](https://atmos.illinois.edu/sites/default/files/images/minislider/Workshop%20Website%20Header.png)
+![alt](./mwsc.png)
+
 **Welcome students!**
 
 The Python ARM Radar Toolkit is a open source community platform for interacting with radar (and even LIDAR) data based
 around a common data model. Py-ART is supported by the United States Department of Energy, Office of Science, 
-[ARM program](www.arm.gov) and we are grateful for their support. 
+[ARM program](https://www.arm.gov) and we are grateful for their support. 
 
 Py-ART is a [community codebase with 38 contributors](https://github.com/ARM-DOE/pyart)!  
 
@@ -25,7 +26,7 @@ This *very* short course will give you an introduction to Py-ART. This will be m
  * 9am - 9:20 am Introduction and getting tech working
  * 9:20 am - 9:50 am Intro notebook
  * 9:50 am - 10 am  Break
- * 10 am - 10:20 am Mapping and gridding
+ * 10 am - 10:20 am Mapping and griding
  * 10:20 am - 11 am Cloud example
  
  There are two ways to run the code for this course. Thanks to Pangeo, you can run it in the cloud. 
