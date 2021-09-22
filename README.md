@@ -71,4 +71,5 @@ jupyter notebook
 ## Courses
 
 [The 2021 AMS Python Virtual course](./Courses/AMSPythonVirtual2021.md)
+
 [The 2021 Midwest Student Conference on Atmospheric Research](./Courses/MidwestStudent2021.md)
