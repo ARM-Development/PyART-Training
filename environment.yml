@@ -18,8 +18,9 @@ dependencies:
   - metpy
   - siphon
   - cartopy
+  - geographiclib
+  - act-atmos
   - pip:
      - nexradaws
      - git+https://github.com/ARM-DOE/pyart
      - git+https://github.com/CSU-Radarmet/CSU_RadarTools.git
-     - git+https://github.com/ARM-DOE/ACT
