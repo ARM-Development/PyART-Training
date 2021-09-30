@@ -1,0 +1,11 @@
+#!/bin/bash
+
+jupyter contrib nbextension install --user
+jupyter nbextension enable --py widgetsnbextension
+jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.38 --minimize=False
+
+
+#export COIN_INSTALL_DIR=/srv/conda/envs/notebook
+#/srv/conda/envs/notebook/bin/pip install git+https://github.com/coin-or/CyLP
+
+bash /home/jovyan/scripts/provision.sh
